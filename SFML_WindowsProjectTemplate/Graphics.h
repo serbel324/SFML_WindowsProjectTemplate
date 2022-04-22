@@ -1,6 +1,4 @@
-#ifndef __GRAPHICS_H__
-#define __GRAPHICS_H__
-
+#pragma once
 #include "Vec2.h"
 #include "Color.h"
 #include "Camera.h"
@@ -74,5 +72,3 @@ private:
 	CameraPtr camera;
 	Vec2<int> window_size;
 };
-
-#endif
